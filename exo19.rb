@@ -1,11 +1,14 @@
+
 50.times do |i|
-	puts "jean.dupont0.0#{i}""@email.fr"
 
-	if i = i + 2
+	emails = "jean.dupont0.0#{i+1}""@email.fr"
 
-	else emails[i]
+if i%2 == 1
+
+		puts emails
 
 
-	elseif puts " "
+else 
+
 end
-
+end
